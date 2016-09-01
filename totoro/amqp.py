@@ -30,7 +30,7 @@ LOGGER = logging.getLogger(__name__)
 
 
 def generate_consumer_tag():
-    return 'totoro_tag_0.{0}'.format(uuid.uuid4().get_hex())
+    return 'totoro_tag_0.{0}'.format(uuid.uuid4().hex)
 
 
 class Connection(object):
